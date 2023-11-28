@@ -1,0 +1,54 @@
+/* Large Layout */
+
+@media only screen and (min-width: 1200px){
+
+    .course__list{
+        border: 0;
+    }
+    .course__menu{
+        border: 0;
+        display: block;
+    }
+
+}
+/* Medium Layout */
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+
+    .course__list{
+        border: 0;
+    }
+    .course__menu{
+        border: 0;
+        display: block;
+    }
+
+}
+
+
+
+/* Tablet Layout */
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .header__nav{
+        display: none;
+    }
+    .course__menu{
+        display: none;
+    }
+
+
+}
+
+/* Mobile Layout */
+
+@media only screen and (max-width:767px) {
+    .header__nav{
+        display: none;
+    }
+    .course__menu{
+        display: none;
+    }
+
+
+}

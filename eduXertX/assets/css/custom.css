@@ -1,0 +1,147 @@
+.banner__area{
+    /* position: relative; */
+    width: 100%;
+    min-height: 100vh;
+    background: url('../img/hero-bg.png');
+    background-size: cover;
+}
+
+
+
+
+/* Header Area */
+.header-area{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background-color: none;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+#navbarDropdown {
+    padding-right: 26px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    transition: .7s;
+}
+#navbarDropdown:hover{
+    color: #fff;
+    opacity: .75;
+}
+.nav-link {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    transition: .7s;
+}
+.nav-link:hover{
+    color: #fff;
+    opacity: .75;
+}
+.form-control {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+}
+.btn {
+    color: white;
+    padding: 0 16px;
+    font-family: 'Raleway', sans-serif !important;
+}
+.btn:hover{
+    color: #fff !important;
+    opacity: .75 !important;
+}
+.btn-border{
+    border: 1px solid #fff !important;
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+.btn-border:hover{
+    color: #d2d2d2 !important;
+    border-color: 1px solid #d2d2d2 !important;
+}
+
+/* Banner Area */
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.banner-info p {
+    color: var(--iq-bnr-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* course page  */
+
+
+/* course start  */
+.course__area{
+    background-image: linear-gradient(0deg,hsl(0deg 0% 0%) 13%, hsl(222deg 42% 5%) 54%,hsl(221deg 39% 10%) 89%);
+    /* padding-bottom: 700px; */
+
+}
+.course__header {
+    padding: 0 65px 10px 0px;
+}
+.title__star{
+    width: 100px;
+    display: inline-block;
+}
+
+
+
+/* course thumbnail  */
+
+.course__thumbnail{
+    min-height: 100vh;
+    background: none;
+    padding: 0 5px;
+}
+
+.course__thumbnail .card .tumbnail__img i{
+    position: absolute;
+    color: #1AF21E;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 58px;
+}
+
+
+.course__thumbnail .card .card-body{
+    padding: 5px 10px !important;
+}
+
+

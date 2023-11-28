@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- line font awesome -->
+     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Typography css -->
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+
+    <title>Document</title>
+
+</head>
+<body>
+
+<!-- Header Area Start Here -->
+<header class="header-area  z-3 z-1 position-relative d-block border-bottom border-1 mt-0" style="background-color:#0F1623 ;">
+  <nav class="navbar navbar-expand-lg navbar-light mt-3">
+      <div class="container">
+        <a class="navbar-brand ff-Raleway text-white fw-700 text-capitalize fs-2" href="#">EduXpert</a>
+        <!-- all course for mobile screen -->
+        <button class="course__list bg-transparent text-white fw-bold ps-2 pe-2 pt-1 pb-1 rounded "  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Courses <i class="ph ph-caret-down"></i></button>
+        <button class="course__menu bg-transparent text-white fw-bold ps-2 pe-2 pt-1 pb-1 rounded"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Templates <i class="ph ph-caret-down"></i></button>
+        <button class="course__menu bg-transparent text-white fw-bold ps-2 pe-2 pt-1 pb-1 border-0"  >Tips & Tricks</button>
+        <button class="course__menu bg-transparent text-white fw-bold ps-2 pe-2 pt-1 pb-1 border-0"  >FAQ</button>
+
+        <!-- mobile end -->
+
+        <!--  modal start -->
+        <div class="modal fade top-80" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-black" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- body start  -->
+              <div class="modal-body">
+                    <div class="course__cat">
+                      <h4 class="text-black fw-bold ff-Raleway">Course Categories</h4>
+                      <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single__course border-1 rounded p-1 m-1">
+                              <i class="ricon ph ph-aperture fw-bold fs-4"></i>
+                              <span class="text-black fw-bold">Web Development</span>
+                            </div> 
+                        </div>
+                      </div>
+                    </div>
+
+
+              </div>
+              <!-- body end  -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end  -->
+
+
+        
+        <!-- humburger start -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- end  -->
+
+        <!-- search area  -->
+        <div class="navbar-collapse collapse " id="navbarSupportedContent" style="">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn">Sign in</button>
+            <button class="btn btn-border">Sign up</button>
+          </form>
+        </div>
+        <!-- search end  -->
+
+      </div>
+  </nav>
+</header>
+<!-- Header Area End Here -->
+
+
+
+    <section class="course__area pt-5 text-light pb-80 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                 <!-- course title -->
+                 <div class="course__header"> 
+                    <h1 class="course__title pb-1 fw-bolder fs-4 lh-base">All Functional MERN Stack LMS / Learning Management system series with next 13, TypeScript | Full Course</h1>
+                        <div class="course__enroll d-flex justify-content-between align-items-center">
+                          <ul class="review__star d-flex justify-content-around text-start" width="165px">
+                            <li><i class="ricon ph ph-star"></i></li>
+                            <li><i class="ricon ph ph-star"></i></li>
+                            <li><i class="ricon ph ph-star"></i></li>
+                            <li><i class="ricon ph ph-star"></i></li>
+                            <li><i class="ricon ph ph-star"></i></li>
+                              <p class="review__count text-capitalize ps-1 fs-6 fw-lighter">7 reviews</p>
+                            </ul>
+                             <h5 class="enroll__student text-capitalize  fs-6 fw-lighter">350 student</h5>
+                        </div>
+                  </div>
+                <!-- title end  -->
+            </div>
+          </div>
+            <div class="row ">
+              <div class="col-md-12 col-lg-6">
+                <div class="course__thumbnail text-light">
+                    <div class="card">
+                        <video  class="tumbnail__img position-relative"
+                        controls
+                        poster="./assets/img/hero-bg.png"
+                        src="./assets/videos/demo-video.mp4">
+                        </video>
+                        <div class="card-body ps-0  text-light">
+                          <div class="row">
+                            <div class="col-md-6">
+
+                            </div>
+                            <div class="col-md-6">
+                           <!-- course pricing  -->
+                          <h5 class="course__price pb-3 fw-lighter fs-5">9.99$ <sup><del>80$</del></sup><span class="ps-2">80% off</span></h5>
+                          <a href="#" class="cbtn">Buy Now 9.99$</a>
+                            <ul class="course__feature mt-4">
+                                <li class="circle-li">Source code included</li>
+                                <li class="circle-li">Full lifetime access</li>
+                                <li class="circle-li">Certificate of completion</li>
+                                <li class="circle-li">Premium Support</li>
+                            </ul>
+
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+
+                <div class="col-md-8 col-lg-6">
+                    <!-- course question  -->
+                    <div class="course__quationaire mb-4">
+                        <h4 class="ques__title fw-medium fs-4 lh-lg">What you will learn from this course?</h4>
+                        <ul class="ques__list">
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You will learn how to scale one big web application</li>
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You will be able to build a full stack LMS Platform</li>
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You will learn how to maintenance cache on a large scale application</li>
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You will learn how to send dynamic mail template with node js and ejs</li>
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You will learn how to make instant notification system with socket io/websocket</li>
+                        </ul>
+                    </div>
+                    <!-- question end  -->
+
+                    <!-- course prerequisite  -->
+                    <div class="course__prerequisit course__quationaire mb-4">
+                        <h4 class="ques__title fw-medium fs-4 lh-lg">What are the prerequisites for starting this course?</h4>
+                        <ul class="ques__list">
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You must need javascript and frontend development knowledge</li>
+                            <li class="lh-lg"><i class="ph ph-arrow-square-in fs-4 fw-bolder pt-2"></i> You need basic knowledge of MERN stack</li>
+                        </ul>
+                    </div>
+                    <!-- prerequisite end  -->
+
+                    <!-- course overview  -->
+                    <div class="course__playlist">
+                        <h4 class="playlist__title text-capitalize mt-5">Course Overview</h4>
+                        <section class="py-4 draggable">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-12 pe-5">
+                                  <div class="accordion" id="accordionRental">
+                                    <div class="accordion-item ">
+                                      <h5 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <!-- course topic  -->
+                                            <ul class="course__topics text-light">
+                                                <li class="topics__title pb-1 fs-4">Planing and Project Structure</li>
+                                                <li class="topic__duration"><p><span>5 Lessons </span>.<span> 57 minutes</span></p></li>
+                                            </ul>
+                                            <!-- topic end  -->
+                                          <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                          <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                        </button>
+                                      </h5>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionRental">
+                                        <div class="accordion-body text-sm opacity-8">
+                                            <!-- course video list -->
+                                            <ul class="course__video">
+                                                <li>
+                                                    <a href="" class="text-light"><i class="ph ph-monitor-play text-info fs-3 fw-bolder"></i>
+                                                        <span class="fs-6 pt-0">Software design / Project Plan</span>
+                                                        <p class="ps-4">10 minutes</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="text-light"><i class="ph ph-monitor-play text-info fs-3 fw-bolder"></i>
+                                                        <span class="fs-6 pt-0">Technology brief</span>
+                                                        <p class="ps-4">15 minutes</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="text-light"><i class="ph ph-monitor-play text-info fs-3 fw-bolder"></i>
+                                                        <span class="fs-6 pt-0">code editor overview</span>
+                                                        <p class="ps-4">4 minutes</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="text-light"><i class="ph ph-monitor-play text-info fs-3 fw-bolder"></i>
+                                                        <span class="fs-6 pt-0">project server setup</span>
+                                                        <p class="ps-4">7 minutes</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="text-light"><i class="ph ph-monitor-play text-info fs-3 fw-bolder"></i>
+                                                        <span class="fs-6 pt-0">database,cloudinary,redis connection</span>
+                                                        <p class="ps-4">21 minutes</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--  end  -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h5 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          How can i make the payment?
+                                          <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                          <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                        </button>
+                                      </h5>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionRental">
+                                        <div class="accordion-body text-sm opacity-8">
+                                          It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter. Because it&#39;s about motivating the doers. Because I’m here to follow my dreams and inspire other people to follow their dreams, too.
+                                          <br>
+                                          We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don’t appreciate the moment until it’s passed.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h5 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          How much time does it take to receive the order?
+                                          <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                          <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                        </button>
+                                      </h5>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionRental">
+                                        <div class="accordion-body text-sm opacity-8">
+                                          The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?
+                                          If everything I did failed - which it doesn&#39;t, it actually succeeds - just the fact that I&#39;m willing to fail is an inspiration. People are so scared to lose that they don&#39;t even try. Like, one thing people can&#39;t say is that I&#39;m not trying, and I&#39;m not trying my hardest, and I&#39;m not trying to do the best way I know how.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item mb-3">
+                                      <h5 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                          Can I resell the products?
+                                          <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                          <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                        </button>
+                                      </h5>
+                                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRental">
+                                        <div class="accordion-body text-sm opacity-8">
+                                          I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They&#39;re slowed down by their perception of themselves. If you&#39;re taught you can’t do anything, you won’t do anything. I was taught I could do everything.
+                                          <br><br>
+                                          If everything I did failed - which it doesn&#39;t, it actually succeeds - just the fact that I&#39;m willing to fail is an inspiration. People are so scared to lose that they don&#39;t even try. Like, one thing people can&#39;t say is that I&#39;m not trying, and I&#39;m not trying my hardest, and I&#39;m not trying to do the best way I know how.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item mb-3">
+                                      <h5 class="accordion-header" id="headingFifth">
+                                        <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                                          Where do I find the shipping details?
+                                          <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                          <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"></i>
+                                        </button>
+                                      </h5>
+                                      <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionRental">
+                                        <div class="accordion-body text-sm opacity-8">
+                                          There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment.
+                                          I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They&#39;re slowed down by their perception of themselves. If you&#39;re taught you can’t do anything, you won’t do anything. I was taught I could do everything.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                    </div>
+                    <!-- overview end  -->
+
+                    <!-- course details  -->
+                    <div class="course__details pe-5">
+                        <h4 class="details__title fw-medium fs-4 lh-lg">Course Details</h4>
+                        <h6 class="lh-base fw-light fs-6 mb-3">Welcome to the LMS / Learning Management System Full stack series on YouTube. In this series, I will show you how to build one industrial-level LMS platform with typescript, node js, express js, MongoDB, Redis, next 13,rtk query, socket io, and much more. </h6>
+                        <!-- social media  -->
+                        <div class="social__media lh-sm mb-3">
+                            <h6 class="media__title lh-base fw-bold fs-6 mb-3">Follow Becodemy on social media for all updates:</h6>
+                            <div class="single__title lh-sm">
+                                <span class="fw-medium">Instagram:</span>
+                                <p><a href="">https://www.instagram.com/shahriar_sajeeb_/</a></p>
+                            </div>
+                            <div class="single__title  lh-sm">
+                                <span class="fw-medium">Linkedin:</span>
+                                <p><a href="">https://www.linkedin.com/in/shahriar-sajeeb-76763222a/</a></p>
+                            </div>
+                        </div>
+                        <!-- media end  -->
+                        <!-- tags  -->
+                        <div class="course__tags fs-6 fw-lighter mt-4">
+                            <span>#mern_stack</span>
+                            <span>#nodejs</span>
+                            <span>#tailwindcss</span>
+                        </div>
+                        <!-- tags end  -->
+                    </div>
+                    <!-- details end  -->
+
+                    <!-- course review  -->
+                    <div class="course__review pt-4">
+                      <!-- course title  -->
+                        <div class="review__title">
+                            <ul class="d-flex justify-content-between text-start d-inline-block title__star" width="165px">
+                                <li><i class="ricon ph ph-star fs-3 fw-bolder"></i></li>
+                                <li><i class="ricon ph ph-star fs-3 fw-bolder"></i></li>
+                                <li><i class="ricon ph ph-star fs-3 fw-bolder"></i></li>
+                                <li><i class="ricon ph ph-star fs-3 fw-bolder"></i></li>
+                                <li><i class="ricon ph ph-star fs-3 fw-bolder"></i></li>
+                            </ul>
+                            <span class="d-inline fw-medium fs-4">5.0 Course Rating • <span>7 Reviews</span></span>
+                        </div>
+                        <!-- title end  -->
+
+                        <!-- course comment  -->
+                        <div class="course__comment pb-80">
+                          <section class="gradient-custom">
+                            <div class="container mb-4 py-1">
+                              <div class="row d-flex justify-content-start">
+                                <div class="col-md-12 col-lg-10 col-xl-8">
+                                  <div class="card">
+                                    <div class="card-body p-4">
+                                      <div class="row">
+                                        <div class="col">
+
+                                          <!-- reply parrent -->
+                                          <div class="d-flex flex-start">
+                                            <!-- parrent img  -->
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" width="65"
+                                              height="65" />
+                                            <div class="flex-grow-1 flex-shrink-1">
+                                              <div>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                  <p class="mb-1 text-light">
+                                                    Maria Smantha <span class="small text-light">- 2 hours ago</span>
+                                                  </p>
+                                                  <a href="#!"><i class="ph ph-share-fat"></i><span class="small text-light"> reply</span></a>
+                                                </div>
+                                                <p class="small mb-0 text-light">
+                                                  It is a long established fact that a reader will be distracted by
+                                                  the readable content of a page.
+                                                </p>
+                                              </div>
+                                              <!-- end  -->
+
+
+                                              <!-- reply child  -->
+                                              <div class="d-flex flex-start mt-4">
+                                                <a class="me-3" href="#">
+                                                  <img class="rounded-circle shadow-1-strong"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(11).webp" alt="avatar"
+                                                    width="110" height="65" />
+                                                </a>
+                                                <div class="flex-grow-1 flex-shrink-1">
+                                                  <div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                      <p class="mb-1 text-light">
+                                                        Simona Disa <span class="small text-light">- 3 hours ago</span>
+                                                      </p>
+                                                    </div>
+                                                    <p class="small mb-0 text-light">
+                                                      letters, as opposed to using 'Content here, content here',
+                                                      making it look like readable English.
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <!-- child end  -->
+                          
+                                                <!-- reply child -->
+                                              <div class="d-flex flex-start mt-4">
+                                                <a class="me-3" href="#">
+                                                  <img class="rounded-circle shadow-1-strong"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                                    width="110" height="65" />
+                                                </a>
+                                                <div class="flex-grow-1 flex-shrink-1">
+                                                  <div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                      <p class="mb-1 text-light">
+                                                        John Smith <span class="small text-light">- 4 hours ago</span>
+                                                      </p>
+                                                    </div>
+                                                    <p class="small mb-0 text-light">
+                                                      the majority have suffered alteration in some form, by
+                                                      injected humour, or randomised words.
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <!-- child end  -->
+
+                                            </div>
+                                          </div>
+                                          <!-- parent end  -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+                        <!-- comment end -->
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- bootstrap script  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+:root {
+    --iq-title-text: #11141b;
+    --iq-body-text: #777D74;
+    --iq-body-bg: #0C1015;
+    --iq-body-text: #f1f2f1;
+    --iq-ricon: #F6B100;
+    /* home start  */
+    --iq-hc-bg:#f9f9fa;
+    /* bannar */
+    --iq-bnr-text:#afafaf;
+
+    /* course  */
+    --iq-cbody-text: #FFFFFF;
+    --iq-cbtn-bg:#DC143C;
+
+    --iq-primary: #0dd6b8;
+    --iq-secondary: #a09e9e;
+    --iq-success: #49f0d3;
+    --iq-warning: #ffba68;
+    --iq-danger: #ff9b8a;
+    --iq-info: #d592ff;
+    --iq-dark: #3f414d;
+    --iq-light: #fafafb;
+    --iq-white: #ffffff;
+    --iq-black: #000000;
+    --iq-gray: #b1b1b1;
+    --iq-light-primary: #fbfcff;
+    --iq-light-secondary: #f1f2f1;
+    --iq-light-success: #eefff2;
+    --iq-light-danger: #fff5f4;
+    --iq-light-warning: #fffcf3;
+    --iq-light-info: #eee6f5;
+    --iq-light-dark: #f0efef;
+    --iq-primary-hover: #11e1c2;
+    --iq-secondary-hover: #807e7e;
+    --iq-success-hover: #42f9d9;
+    --iq-danger-hover: #f78673;
+    --iq-warning-hover: #fdb45e;
+    --iq-info-hover: #c280ea;
+    --iq-dark-hover: #44454e;
+    --iq-light-hover: #eaeeff;
+    --iq-border: #ededf0;
+    --iq-border-light: #f1f1f1;
+    --iq-border-danger: #ff9273;
+    --iq-light-card: #ffffff;
+    --iq-primary-rgb: 100, 114, 248;
+    --iq-primary-light: #f3fffe;
+    --iq-color1: #4e37b2;
+    --iq-color2: #02d871;
+    --iq-color3: #309cf3;
+    --iq-color4: #ff00ff;
+    --iq-color5: #fb1f4c;
+    --iq-color6: #00ced1;
+    --iq-color7: #f35f3b;
+    --iq-color8: #fde117;
+    --iq-color9: #ff0000;
+    --iq-color10: #88028c;
+    --iq-color11: #00d5ab;
+    --iq-color12: #ce9252;
+    --iq-color13: #f9ae02;
+    --iq-color14: #1e7fe4;
+    --iq-color15: #006400;
+    --iq-color16: #fa7c04;
+    --iq-color17: #81bf02;
+    --iq-color18: #99a7ca;
+    --iq-color19: #3d2a26;
+
+
+        /* ===========Font and Typography========= */
+    /* .5rem=8px | 1rem =16px.....*/
+    --body-font-inter: 'Inter', sans-serif;
+    --body-font-poppins: 'Poppins', sans-serif;
+    --body-font-poppins: 'Poppins', sans-serif;
+    --body-font-Raleway: 'Raleway', sans-serif;
+    --h1-font-size:1.56rem;
+    --h2-font-size:1.5rem;
+    --h3-font-size:1.25rem;
+    --normal-font-size:1rem;
+    --small-font-size:0.875rem;
+    --smaller-font-size:0.813rem;
+
+    /* ===================font weight=========== */
+    --font-medium:500;
+    --font-semibold:600;
+    --font-bold:700;
+  }
+  .pb-80{
+    padding-bottom: 80px;
+  }
+  .pt-80{
+    padding-top: 80px;
+  }
+  .pt-200{
+    padding-top: 200px;
+  }
+  .mt-80{
+    margin-top: 80px;
+  }
+  .fs-90{
+    font-size: 90px;
+  }
+  .fw-700{
+    font-weight: 700;
+  }
+  .fw-800{
+    font-weight: 800;
+  }
+  .fw-900{
+    font-weight: 900;
+  }
+  .top-80{
+    top: 80px;
+  }
+
+  .ff-inter{
+    font-family: var(--body-font-inter);
+    font-family: var(--body-font-poppins);
+  }
+  .ff-poppins{
+    font-family: var(--body-font-poppins);
+  }
+  .ff-Raleway{
+    font-family: var(--body-font-Raleway);
+  }
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+  position: relative;
+  font-family: var(--body-font-inter);
+  font-family: var(--body-font-poppins);
+  font-style: normal;
+  background-color: var(--iq-body-bg);
+  color: var(--iq-body-text);
+  font-size: 15px;
+  line-height:1.7 ;
+  margin-top: -16px;
+}
+
+html{  scroll-behavior: smooth;}
+
+/* typography end  */
+
+img{
+  max-width: 100%;
+}
+li{
+  list-style: none;
+}
+ul,li{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.circle-li{
+  list-style: circle;
+}
+
+
+a{
+  text-decoration: none;
+  color: var(--iq-border-light);
+}
+
+  /* review icon  */
+  .ricon{
+    color:var(--iq-ricon) ;
+  }
+
+
+  .cbtn{
+    display: block;
+    width: 185px;
+    background-color: #DC143C;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    padding: .75rem 1.5rem .75rem 1.9rem;
+    margin-bottom: 1.5rem !important;
+  }
+
+
+
+  
